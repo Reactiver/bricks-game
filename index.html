@@ -1,0 +1,24 @@
+<html lang="ru">
+  <head>
+    <title>Bricks Game</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #gameScreen {
+        border: 1px solid black;
+      }
+      img {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="img_ball" src="assets/images/ball.png" alt="ball" />
+    <img id="img_brick" src="assets/images/brick.png" alt="brick" />
+    <canvas id="gameScreen" width="800" height="600"></canvas>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
